@@ -1,5 +1,6 @@
 #include <vector>
 #include <iostream>
+<<<<<<< HEAD
 #include <cassert>
 
 using namespace std;
@@ -24,9 +25,6 @@ class Solution {
                 return (index==0 or index==n-2 or (nums[index-1]<=nums[index+1]) or (nums[index]<=nums[index+2]));
             
             return true;
-    }
-};
-
 
 int main() {
   vector<int> nums{4, 2, 3};
